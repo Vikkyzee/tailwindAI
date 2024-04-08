@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            fontFamily: {
+              sans:[ "ui-sans-serif" ,"system-ui"],
+              serif:["ui-serif","Georgia"],
+              mono:["ui-monospace","SFMono-Regular"],
+              montserrat: ["Monserrat", "sans-serif"]
+            },
+          },
+        };
+    </script>
+</head>
+<body>
+<div class="border-b-[0.5px] border-black flex justify-center">
+    <div class="flex justify-between w-[95%] p-[10px]">
+        <header class="font-bold p-[15px]">STAR TECH</header>
+        <a href=""><button class="p-[15px] bg-blue-600 text-white rounded-[30px]">Sign Up</button></a>
+    </div>
+</div>
+<!-- navigation end -->
+<div class="h-[100%] w-[100%] bg-cover bg-center bg-no-repeat object-center p-[15%]" style="background-image: url('/images/ocean.jpg');">
+    <div class="text-center">
+        <h1 class="text-3xl font-bold text-blue-600">Generate more leads with a professional landing page!</h1>
+        <form>
+            <label for="email"></label>
+            <input class="w-[50%] rounded-[10px] p-[20px] ml-[2%] border-b-none lg:w-[400px] rounded-[10px] mt-[10px]" type="email" name="" placeholder="Email Address">
+            <button class=""><a class="bg-inherit text-black py-4 px-4 rounded-full m-1 outline outline-1 outline-inherit hover:bg-white hover:text-red-600 outline outline-1 outline-inherit " href="https://startbootstrap.com/theme/new-age" target="_blank">Submit</a></button>
+        </form> 
+    </div>
+</div>
+<div class="bg-[#f5f5f5]">
+   <div class="lg:flex flex-row justify-center text-center space-x-6 space-y-1 p-[10%]">
+        <div>
+            <span class="text-7xl text-purple-800"><i class='bx bx-window-alt'></i></span>
+            <h3 class="text-center text-2xl font-bold">Fully Responsive</h3>
+            <p class="text-center text-xl">This theme will look great on any device, no matter the size!</p>
+        </div>
+        <div>
+            <span><i class='bx bx-layer text-7xl text-purple-800'></i></span>
+            <h3 class="text-center text-2xl font-bold">Bootstrap 5 Ready</h3>
+            <p class="text-center text-xl">Featuring the latest build of the new Bootstrap 5 framework!</p>
+       </div>
+       <div>
+            <span><i class='bx bx-terminal text-7xl text-purple-800 '></i></span>
+            <h3 class="text-center text-2xl font-bold">Easy to Use</h3>
+            <p class="text-center text-xl">Ready to use with your own content, or customize the source files!</p>
+        </div>
+   </div>  
+</div>
+<div class="flex flex-row justify-center flex-wrap text-center">
+    <div class="w-[630px] h-[520px] p-[17%] items-center" >
+        <h2 class="text-2xl">Fully Responsive Design</h2>
+        <p class="text-md">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+    </div>
+    <div>
+        <img class="w-[900px] lg:w-[630px] h-[520px]" src="/images/IPhone 2.jpg" alt="">
+    </div>
+    <div>
+        <img class="w-[900px] lg:w-[630px] h-[520px]" src="/images/html 2.jpeg" alt="">
+    </div>
+    <div class="bg-[#ffffff] w-[630px] h-[520px] p-[17%] items-center">
+        <h2 class="text-2xl">Updated For Bootstrap 5</h2>
+        <p class="text-md">Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!</p>
+    </div>
+    <div class="bg-[#ffffff] w-[630px] h-[520px] p-[17%] items-center">
+        <h2 class="text-2xl">Easy to Use & Customize</h2>
+        <p class="text-md">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+    </div>
+    <div>
+        <img class="w-[900px] lg:w-[630px] h-[520px]" src="/images/hand typing.jpeg" alt="">
+    </div>
+</div>
+<div class="bg-[#ffffff]">
+    <h2 class="text-center text-3xl font-bold">
+        What people are saying...
+    </h2>
+    <div class="bg-[#ffffff]">
+        <div class="lg:w-[70%] m-auto flex flex-col lg:flex-row justify-between ">
+            <div class="flex flex-col items-center my-8 lg:w-[25%]">
+                <img class="border-inherit items-center shadow-sm shadow-black rounded-full w-[170px] h-[170px]" src="/images/woman.jpg" alt="">
+                <h5 class="text-[20px]">Margaret E.</h5>
+                <p class="text-center">"This is fantastic! Thanks so much guys!"</p>
+            </div>
+            <div class="flex flex-col items-center my-8 lg:w-[25%]">
+                <img class="border-inherit shadow-sm shadow-black rounded-full w-[170px] h-[170px]" src="/images/man.jpg" alt="">
+                <h5 class="text-[20px]">Fred S.</h5>
+                <p class="text-center">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+            </div>
+            <div class="flex flex-col items-center my-8 lg:w-[25%]">
+                <img class="border-inherit shadow-sm shadow-black rounded-full w-[170px] h-[170px] " src="/images/old woman.jpg" alt="">
+                <h5 class="text-[20px]">Sarah W.</h5>
+                <p class="text-center">"Thanks so much for making these free resources available to us!"</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="h-[100%] w-[100%] bg-cover bg-center bg-no-repeat object-center p-[15%]" style="background-image: url('/images/ocean.jpg');">
+    <div class="actions">
+        <div class="text-center">
+            <h1 class="text-3xl font-bold text-blue-600">Ready to get started? Sign up now!</h1>
+            <form class="space-x-1">
+                <input class="w-[50%] rounded-[10px] p-[20px] ml-[2%] border-b-none lg:w-[400px] rounded-[10px] mt-[10px]"type="email" name="" placeholder="Email Address">
+                <button class=""><a class="bg-inherit text-black py-4 px-3 rounded-full  outline outline-1 outline-inherit hover:bg-white hover:text-red-600 outline outline-1 outline-inherit" href="https://startbootstrap.com/theme/new-age" target="_blank">Submit</a></button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- action done -->
+<!-- finish -->
+<div class="bg-[#800080]">
+    <div class="p-5">
+        <ul class="flex flex-row">
+            <a href=""><li class="p-[10px]  text-white  hover:text-white hover:underline">About</li></a>
+            <a href=""><li class="p-[10px]  text-white  hover:text-white hover:underline">Contact</li></a>
+            <a href=""><li class="p-[10px]  text-white  hover:text-white hover:underline">Terms of Use</li></a>
+            <a href=""><li class="p-[10px]  text-white  hover:text-white hover:underline">Privacy Policy</li></a>
+        </ul>
+    </div>
+    <p class="text-white">&COPY; Your Website 2023. All Rights Reserved.</p>
+</div>
+</body>
+</html>
